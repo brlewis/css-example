@@ -1,0 +1,24 @@
+body {
+    background: linear-gradient(to bottom right, #00f, #ccf);
+}
+#container {
+    background-color: white;
+    max-width: 60em;
+    margin: auto;
+    padding: 0;
+    padding-bottom: 1em;
+}
+h1 {
+    background-color: gray;
+    color: white;
+    font-family: sans-serif;
+    padding: 0.5em 0 0.5em 0;
+    text-align: center;
+}
+#container p {
+    padding: 0 1em;
+}
+.illustration {
+    display: flex;
+    justify-content: center;
+}
