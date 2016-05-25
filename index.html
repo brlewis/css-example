@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Example</title>
+        <style>
+         body {
+             background: linear-gradient(to bottom right, #00f, #ccf);
+         }
+         #container {
+             background-color: white;
+             max-width: 60em;
+             margin: auto;
+             padding: 0;
+             padding-bottom: 1em;
+         }
+         h1 {
+             background-color: gray;
+             color: white;
+             font-family: sans-serif;
+             padding: 0.5em 0 0.5em 0;
+             text-align: center;
+         }
+         #container p {
+             padding: 0 1em;
+         }
+         .illustration {
+             display: flex;
+             justify-content: center;
+         }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <h1>CSS Example</h1>
+            <p>To make text on your page easier to read, enclose all the content in a single div that is centered and has a maximum width. It helps to have at least a basic understanding of the <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model">box model</a>.</p>
+
+            <p>The current fashion in web design is for images to be placed without any borders or shadows. But if this isn't the style you want, there are options.</p>
+
+            <p>You can put a little border around your photo by specifying the CSS properties for <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border">border</a> and <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/padding">padding</a>.
+
+            <div class="illustration">
+            <img style="border: 1px solid #c5c9ca; padding: 5px;" alt="bubbles"
+                 src="http://img.ourdoings.com/i8/rf/git3p.jpg" />
+            </div>
+
+            <p>You can give photos a friendly look with rounded corners using <a href="">border-radius</a>. Set its value high enough and you have a circle.</p>
+
+            <div class="illustration">
+            <img style="border-radius: 2em;" alt="bubbles"
+                 src="http://img.ourdoings.com/i8/rf/git3p.jpg" />
+            </div>
+
+            <p>You can add a 3D effect with <a href="">box-shadow</a>.</p>
+
+            <div class="illustration">
+            <img style="box-shadow: 5px 5px 5px gray;" alt="bubbles"
+                 src="http://img.ourdoings.com/i8/rf/git3p.jpg" />
+            </div>
+
+            <p>Don't overdo it. Pick just enough decoration and stop.</p>
+
+        </div>
+    </body>
+</html>
